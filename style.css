@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+    padding: 15px 0;
+    background-color: black;
+    height: 80px;
+}
+body{
+    width: 100%;
+    background-image: url("bg.png");
+    background-repeat: inherit;
+    background-attachment:fixed;
+    background-position: center;
+}
+header img{
+    position: absolute;
+    left: 16px;
+    top: 18px;
+    margin-left: 30px;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    color: white;
+    gap: 30px;
+    font-family: 'Poppins';
+    margin-left: 23%;
+    margin-top: 1%;
+}
+nav button{
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    background-color: rgb(208, 59, 228);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+nav button:hover{
+    background-color: white;
+    color: rgb(208, 59, 228);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+}
+section h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: center;
+    font-family: 'Poppins';
+}
+section p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: center;
+    font-family: 'Poppins';
+    padding: 5px 0;
+}
+section button{
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color:  rgb(208, 59, 228);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+section button:hover{
+    background-color: white;
+    color: rgb(208, 59, 228);
+
+}
